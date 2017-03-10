@@ -72,7 +72,7 @@ function getCardsAttachments(session) {
                 builder.CardImage.create(session, 'https://azurecomcdn.azureedge.net/cvt-68b530dac63f0ccae8466a2610289af04bdc67ee0bfbc2d5e526b8efd10af05a/images/page/services/cognitive-services/cognitive-services.png')
             ])
             .buttons([
-                builder.CardAction.postBack(session, "https://azurecomcdn.azureedge.net/cvt-68b530dac63f0ccae8466a2610289af04bdc67ee0bfbc2d5e526b8efd10af05a/images/page/services/cognitive services/cognitive-services.png", "hai selezionato una card")
+                builder.CardAction.postBack(session, "https://azurecomcdn.azureedge.net/cvt-68b530dac63f0ccae8466a2610289af04bdc67ee0bfbc2d5e526b8efd10af05a/images/page/services/cognitiveservices/cognitive-services.png", "hai selezionato una card")
                 //.openUrl(session, 'https://azure.microsoft.com/en-us/services/cognitive-services/', 'Learn More')
             ])
     ];
