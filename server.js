@@ -67,7 +67,7 @@ function getCardsAttachments(session) {
         new builder.ThumbnailCard(session)
             .title('Cognitive Services')
             .subtitle('Build powerful intelligence into your applications to enable natural and contextual interactions')
-            .text('Enable natural and contextual interaction with tools that augment users\' experiences using the power of machine-based intelligence. Tap into an ever-growing collection of powerful artificial intelligence algorithms for vision, speech, language, and knowledge.')
+            .text('Enable natural and contextual interaction with tools that augment users\' experiences using the power of machine-based intelli.')
             .images([
                 builder.CardImage.create(session, 'https://azurecomcdn.azureedge.net/cvt-68b530dac63f0ccae8466a2610289af04bdc67ee0bfbc2d5e526b8efd10af05a/images/page/services/cognitive-services/cognitive-services.png')
             ])
